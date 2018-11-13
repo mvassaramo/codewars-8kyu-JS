@@ -8,3 +8,6 @@
 function check(a,x){
 return a.includes(x) ? true : false
 };
+
+//refactored + using es6
+const check = (a,x) => a.includes(x)
