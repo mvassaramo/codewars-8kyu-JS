@@ -31,6 +31,8 @@ function basicOp(operation, value1, value2) {
   }
 }
 
+
+
 //different solution
 
 // function basicOp(operation, value1, value2)
