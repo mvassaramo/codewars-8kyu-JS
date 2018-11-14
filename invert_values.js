@@ -8,6 +8,12 @@
 
 const invert = array => {
   return array.map(num =>
-    (num === 0) ? 0 : -num
+    (num === 0) ? num : -num
   )
+}
+
+//different solution
+
+function invert(array) {
+   return array.map(i => 0 - i);
 }
